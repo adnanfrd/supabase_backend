@@ -1,0 +1,19 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "M Adnan Fareed",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {}
+}
